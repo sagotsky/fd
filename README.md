@@ -9,6 +9,8 @@ fd is short for find directory.  It's a shortcut for finding a directory by name
 * For ambiguous paths, fd will prompt the user with a list of all possible paths.
 * Tab completion and the select prompt both work with white space.
 
+![demo-gif](https://raw.github.com/sagotsky/fd/master/fd-demo.gif)
+
 Example
 ==
 
