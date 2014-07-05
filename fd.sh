@@ -3,9 +3,9 @@ function fd() {
   SEARCH=$(echo "$@" | tr -d '/')
 
   dirs=()
-  while read line ;do
+  find ./ -type d -name "$SEARCH" 2>/dev/null | sort | while read line ;do
     dirs+=("$line")
-  done < <(find ./ -type d -name "$SEARCH" 2>/dev/null | sort)
+  done 
 
   case ${#dirs[@]} in
     0)
