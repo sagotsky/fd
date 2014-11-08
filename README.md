@@ -35,7 +35,7 @@ Tab completion depends on your shell
 zsh
 ---
 
-symlink _fd to `~/.zsh/completion` for tab completion.
+symlink _fd into `~/.zsh/completion/` for tab completion.
 
 bash
 ----
