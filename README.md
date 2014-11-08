@@ -24,3 +24,21 @@ Known limitations
 Find can be slow if you use it in a stupid place.  fd `tab` `tab` in my home directory will appear to freeze bash because it's finding everything.  
 
 White space was trouble.  I won't be surprised if it breaks in older versions of bash.
+
+Installation
+==
+
+Just source `fd.sh` in your shell's rc file.
+
+Tab completion depends on your shell
+
+zsh
+---
+
+symlink _fd to `~/.zsh/completion` for tab completion.
+
+bash
+----
+
+source `fd.bash_completion.sh` in your bashrc.
+
